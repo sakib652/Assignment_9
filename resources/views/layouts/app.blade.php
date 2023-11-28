@@ -17,6 +17,19 @@
     <link rel="stylesheet" href="{{asset('assets/vendor')}}/charts/c3charts/c3.css">
     <link rel="stylesheet" href="{{asset('assets/vendor')}}/fonts/flag-icon-css/flag-icon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+
+    <style>
+        .nav-item a {
+            color: #ffffff; /* Set the default text color */
+        }
+
+        .nav-item.active a {
+            background-color: white; /* Set the background color for active state */
+            color: #ffffff; /* Set the text color for active state */
+        }
+    </style>
+
 
     <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
 </head>
@@ -62,6 +75,12 @@
     <script src="{{asset('assets/vendor')}}/charts/c3charts/d3-5.4.0.min.js"></script>
     <script src="{{asset('assets/vendor')}}/charts/c3charts/C3chartjs.js"></script>
     <script src="{{asset('assets/libs')}}/js/dashboard-ecommerce.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
  
 </html>
